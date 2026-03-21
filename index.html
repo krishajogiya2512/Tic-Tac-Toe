@@ -1,14 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tic-tac-Toe</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Tic-tac-Toe</title> 
+    <link rel="stylesheet" href="style.css"> 
+</head> 
 <body>
-    <main></main>
+    <main>
         <h1>Tic-Tac-Toe</h1>
+        <button id="reset-btn">Reset Game</button>
         <div class="container">
             <div class="game">
                 <button class="box"></button>
@@ -22,8 +23,11 @@
                 <button class="box"></button>
             </div>
         </div>
-        <button id="reset-btn">Reset Game</button>
-        <script src="script.js"></script>
+        <div class="msg-container">
+            <p id="msg">Winner</p>
+            <button id="new-btn">New Game</button>
+        </div>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
